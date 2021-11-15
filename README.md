@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with HK-Bikes
 
-This is Bikes website using react app [Create React App](https://hk-bikes.web.app/).
+This is Bikes website using react app [HK-Bikes](https://hk-bikes.web.app/).
 
 ## About this site
 
