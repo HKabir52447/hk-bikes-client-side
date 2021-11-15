@@ -1,0 +1,13 @@
+.add_bikes form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dashboard{
+    height: 80vh;
+}
+.add_bikes form input, textarea{
+    width: 40%;
+    margin-bottom: 10px;
+}

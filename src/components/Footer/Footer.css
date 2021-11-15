@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(128, 128, 128, 0.185);
+    background: #fff;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    color: #e10f28;
+    border: 2px solid #e10f28;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .social-media a:hover {
+    color: #fff;
+    background: #e10f28;
+  }
+  @media screen and (max-width:768px) and (min-width: 576px) {
+    .social-media a{
+        margin-right: 0.4rem;
+        font-size: 1.1rem;
+        width: 2.2rem;
+    height: 2.2rem;
+    }
+  }
+  @media  screen and (max-width: 1002px) and (min-width: 896px) {
+    .social-media a{
+        margin-right: 0.2rem;
+        width: 35px;
+        height: 35px;
+        font-size: 1.4rem;
+  
+    }
+  }

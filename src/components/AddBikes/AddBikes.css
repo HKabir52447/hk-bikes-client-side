@@ -1,0 +1,10 @@
+.add_bikes form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.add_bikes form input, textarea{
+    width: 40%;
+    margin-bottom: 10px;
+}

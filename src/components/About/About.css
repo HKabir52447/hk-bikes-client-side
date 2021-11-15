@@ -1,0 +1,17 @@
+.about-details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin:0 auto;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+.about-description{
+    text-align: left;
+    padding-right: 2rem;
+}
+@media screen and (max-width: 600px){
+    .about-details{
+        grid-template-columns: 1fr;
+    }
+}

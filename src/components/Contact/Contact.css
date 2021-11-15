@@ -1,0 +1,27 @@
+.contact-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+.address{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+}
+.address h6{
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 850px){
+    .contact-info{
+        grid-template-columns: 1fr;
+        margin-right: 2rem;
+    }
+}
+@media screen and (max-width: 380px){
+    .address h6{
+        font-size: 15px;
+    }
+}
