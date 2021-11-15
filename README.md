@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This is Bikes website using react app [Create React App](https://github.com/facebook/create-react-app).
+This is Bikes website using react app [Create React App](https://hk-bikes.web.app/).
 
 ## About this site
 

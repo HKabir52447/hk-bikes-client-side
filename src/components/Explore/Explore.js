@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import './Explore.css';
+import "./Explore.css";
 import Bike from "../Bike/Bike";
 // import bikes from "../bikes/bikes";
 import "./Explore.css";
 const Explore = () => {
   const [bikes, setBikes] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/bikes")
+    fetch("https://lit-wildwood-08261.herokuapp.com/bikes")
       .then((res) => res.json())
       .then((data) => setBikes(data));
   }, []);

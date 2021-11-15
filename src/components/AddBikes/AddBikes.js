@@ -11,15 +11,16 @@ const AddBikes = () => {
     formState: { errors },
   } = useForm();
   const onSubmit = (data) => {
-      console.log(data);
-      axios.post('http://localhost:5000/bikes', data)
-      .then(res => {
-          if(res.data.insertedId){
-              alert('added successfully');
-              reset();
-          };
-      })
-    };
+    console.log(data);
+    axios
+      .post("https://lit-wildwood-08261.herokuapp.com/bikes", data)
+      .then((res) => {
+        if (res.data.insertedId) {
+          alert("added successfully");
+          reset();
+        }
+      });
+  };
   return (
     <div className="add_bikes">
       <h2>Add bikes</h2>
